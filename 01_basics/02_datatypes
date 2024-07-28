@@ -1,0 +1,22 @@
+"use strict"; //treat all js code as newer version
+
+/* alert(3+3)--> alert is not defined, 
+because here we're using nodejs not browser.
+*/
+
+let name="sanya"
+let age=18
+let isloggedIn=false
+
+/*DATATYPES:
+number-> 2^53
+bigint
+string-> " "
+boolean-> true/false
+null-> standalone value
+undefined
+symbol-> unique
+*/
+console.log(typeof age); //number
+console.log(typeof undefined); //undefined
+console.log(typeof null); //object
